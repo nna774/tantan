@@ -1,0 +1,13 @@
+<div>
+<a href='<%= @ogp['url'] %>'>
+<div>
+  <div>
+    <div><%= @ogp['title'] %></div>
+    <%= "<div>#{@ogp['description']}</div>" if @ogp['description'] %>
+  </div>
+  <div>
+    <img src='<%= @ogp['image'][0]['url'] %>' />
+  </div>
+</div>
+</a>
+</div>
